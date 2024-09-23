@@ -1,0 +1,21 @@
+footer {
+    background-color: var(--color-primary);
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .copyright {
+        padding:40px;
+        font-size: var(--font-size-p);
+        color: var(--color-accent);
+        font-family: var(--font-secondary);
+        
+            @media screen and (max-width: $breakpoint-md) {
+            font-size: 1.4rem;
+            padding: 20px 0;
+        
+
+    }
+}
+}

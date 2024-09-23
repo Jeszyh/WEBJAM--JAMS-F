@@ -1,0 +1,103 @@
+{% include '_partials/_header.html' %} 
+<section class="formulaire">
+    <div class="wrapper">
+        <h2>
+            Formulaire
+        </h2>
+            <div class="personelle">
+            <h4>
+                Données personnelles
+            </h4>
+            
+                <form action="" class="form" autocomplete="off" data-component="Form">
+                    <fieldset class="grid">
+                        <div class="input">
+                        <label class="input_label" for="name">Prénom</label>
+                        <input
+                            class="input__element"
+                            type="text"
+                            name="fullname"
+                            id="fullname"
+                            required/>
+                        </div>
+                        <div class="input">
+                            <label class="input_label" for="name">Nom</label>
+                                <input
+                                class="input__element"
+                                type="text"
+                                name="fullname"
+                                id="fullname"
+                                required />
+                        </div>
+                        <div class="input">
+                            <label class="input_label" for="email">Email</label>
+                            <input
+                                class="input__element"
+                                type="email"
+                                name="email"
+                                id="email"
+                                required/>
+                        </div>
+                        <div class="input">
+                            <label class="input_label" for="phone">Telephone</label>
+                                <input
+                                    class="input__element"
+                                    type="tel"
+                                    name="phone"
+                                    id="phone"
+                                    required/>
+                        </div> 
+                    </fieldset>
+                </form>
+</div>
+
+ 
+<form action="" class="form" autocomplete="off" data-component="Form">  
+                <div class="information">
+                    <h4>
+                        Informations
+                    </h4>
+             
+                <fieldset class="grid">
+
+                    <div class="input select">
+                        <label class="input_label" for="province">Modèle</label>
+                        <select class="input__element" name="" id="Modeles" required>
+                            <option value="" hidden>choisir un modèle</option>
+                            <option value=" Z50 compact">hydrobouffe Z50 compact</option>
+                            <option value="X">Hydrobouffe X</option>
+                            <option value="h2o">Hydrobouffe H2O</option>
+                            <option value="solo">Hydrobouffe SOLO</option>
+                            <option value="solo">Hydrobouffe Z50 mini</option>
+                        </select>
+                    </div>
+                    <div class="input select">
+                        <label class="input_label" for="province">Type</label>
+                        <select class="input__element" name="" id="Modeles" required>
+                        
+                            <option value=" Z50 compact">Commentaire</option>
+                            <option value="X">Question</option>
+               
+                        </select>
+                    </div>
+                    <div class="com_cocher">
+                    <div class="input textarea u-grid-fullwidth">
+                        <label class="input_label" for="Comment">Commentaire</label>
+                        <textarea class="input__element" name="comment" id="comment" required></textarea>
+                    </div>
+                    <div class="input checkbox">
+                        <input class="input__element" type="checkbox" name="optin[]" id="optin" value="true" />
+                        <label class="input_label" for="optin">J’accepte les condition générale et de confidencialité </label>
+                    </div>
+                    </div>
+
+                </div>
+<button class="button">Joindre les rangs</button>
+           </fieldset>  
+        </form>
+    </div>
+   
+        
+    
+</section>
+{% include '_partials/_footer.html' %}

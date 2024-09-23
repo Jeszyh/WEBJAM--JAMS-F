@@ -1,0 +1,23 @@
+.notre-equipe {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+    
+    p {
+        font-size: var(--font-size-p);
+    }
+    h2 {
+        margin-top: 0;
+        padding: 20px auto;
+        font-size: var(--font-size-h2);
+    }
+}

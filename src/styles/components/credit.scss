@@ -1,0 +1,40 @@
+.credit .wrapper{
+    color: var(--color-primary);
+    max-width: 90%;
+h2{
+    @media screen and (min-width: $breakpoint-md) {
+        font-size: var(--font-size-h2);
+        padding: 50px 0 70px;
+    }
+    font-size: var(--font-size-h4);
+    font-family: var( --font-primary);
+    
+    padding: 14px;
+    margin:0;
+}
+.equipier{
+    padding:50px 0 153px;
+    h3{
+        margin:0;
+        font-size: var(--font-size-h3);
+        font-family: var( --font-primary);
+        @media screen and (min-width: $breakpoint-md) {
+            font-size: var(--font-size-h4);
+            padding: 50px 0 70px;
+        }
+    }
+    ul {
+        padding:0;
+    li{
+        list-style: none;
+        font-family: var( --font-secondary);
+      font-size: var(--font-size-p-mobile);
+        padding: 0 0 29px  ;
+        @media screen and (min-width: $breakpoint-md) {
+             font-size: var(--font-size-p); 
+            padding:  0 0 29px;
+        }
+        
+}}
+}
+}
